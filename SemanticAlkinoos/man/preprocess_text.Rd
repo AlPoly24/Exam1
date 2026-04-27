@@ -2,7 +2,7 @@
 % Please edit documentation in R/sentiment_logic.R
 \name{preprocess_text}
 \alias{preprocess_text}
-\title{Semantic Word Counter}
+\title{Preprocess Text Data}
 \usage{
 preprocess_text(file_path)
 }
@@ -10,15 +10,8 @@ preprocess_text(file_path)
 \item{file_path}{A string path to the .txt file.}
 }
 \description{
-This is a package to process text and calculate a sentiment score based on
-the presence of positive and negative words in the text.
-
 Loads a file using read.delim and converts text to a cleaned word vector.
 }
 \examples{
 # words <- preprocess_text("diary.txt")
-}
-\author{
-Panagiotis Alkinoos Polychronopoulos
-Preprocess Text Data
 }

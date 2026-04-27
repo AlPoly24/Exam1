@@ -1,7 +1,17 @@
 #' @title Semantic Word Counter
 #' @description This is a package to process text and calculate a sentiment score based on
 #' the presence of positive and negative words in the text.
+#' The core functionality is divided into three parts:
+#' FUNCTION 1: Preprocessing
+#'          ## Cleans and tokenizes raw text.
+#' FUNCTION 2: Semantic Comparison
+#'          ## Handles the matching logic.
+#' FUNCTION 3: Summarizing and Automation
+#'          ## Runs the full analysis.
+#' @docType package
+#' @name SemanticAlkinoos
 #' @author Panagiotis Alkinoos Polychronopoulos
+NULL
 
 # --- FUNCTION 1: Preprocessing ---
 
